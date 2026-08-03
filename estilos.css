@@ -194,7 +194,7 @@ section { padding: 6rem 8%; }
     .services-grid {gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));}
 }
 
-.demos {background:#f9fafb;}
+.demos {background:#f9fafb; background: transparent}
 .demos h2 {text-align:center; font-size:2.5rem; color:var(--gold-primary); font-weight: 700;}
 .demo-grid {display:grid; grid-template-columns:
 repeat(auto-fit,minmax(300px,1fr)); gap:30px; margin-top:50px;}
