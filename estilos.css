@@ -146,8 +146,8 @@ section { padding: 6rem 8%; }
     color: var(--gold-primary); margin-bottom: 1rem;
     text-transform: uppercase; letter-spacing: 1px; font-weight: 700;}
 .services-grid {display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem; margin-top: 3rem;}
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.5rem; margin-top: 3rem;}
 
 .contact h2 { margin-bottom: 0.5rem; }
 .contact-subtitle {text-align: center; color: var(--text-muted);
@@ -158,7 +158,8 @@ section { padding: 6rem 8%; }
     border: 1px solid #e5e7eb;
     border-radius: 12px; padding: 2rem 1.5rem;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    z-index: 1;}
+    z-index: 1; aspect-ratio: 1 / 1; display: flex;
+    flex-direction: column; justify-content: center;}
 .card::before {
     content: '';
     position: absolute;
@@ -187,6 +188,11 @@ section { padding: 6rem 8%; }
     color: #000000;
 }
 .card p { color: var(--text-light); font-size: 0.95rem; line-height: 1.6; }
+
+@media (max-width: 768px) {
+    .card {aspect-ratio: auto; padding: 1.5rem 1.2rem;}
+    .services-grid {gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));}
+}
 
 .demos {background:#f9fafb;}
 .demos h2 {text-align:center; font-size:2.5rem; color:var(--gold-primary); font-weight: 700;}
