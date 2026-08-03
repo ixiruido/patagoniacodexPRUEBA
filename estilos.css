@@ -1,5 +1,5 @@
 :root {
-    --bg-dark: #ffffff;
+    --bg-dark: #eeeeee;
     --bg-card: #f9fafb;
     --gold-primary: #000000;
     --gold-hover: #333333;
@@ -76,7 +76,7 @@ section { padding: 6rem 8%; }
     flex-direction: column; justify-content: center;
     align-items: center; text-align: center;
     background-color: var(--bg-dark);
-    background-image: linear-gradient(rgba(255, 255, 255, 0.97), rgba(249, 250, 251, 0.98)), url('fondo.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.664), rgba(249, 250, 251, 0.466)), url('fondo.jpg');
     background-repeat: no-repeat; background-position: center center;
     background-size: cover; background-attachment: fixed;
     padding: 4rem 2rem; margin-top: -70px;
@@ -170,6 +170,7 @@ section { padding: 6rem 8%; }
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.3s ease;
+    
 }
 .card:hover {
     transform: translateY(-8px);
