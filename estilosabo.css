@@ -1,5 +1,5 @@
 :root {
-    --bg-dark: #0c0e11;
+    --bg-dark: #0e1013;
     --bg-card: #13161f;
     --gold-primary: #d4af37;
     --gold-hover: #f3e5ab;
@@ -27,7 +27,7 @@ body::before {content: ''; position: fixed;
     will-change: opacity;}
 
 @keyframes respiraFondo {0% { opacity: 0.3; transform: scale(0.95); }
-    100% { opacity: 1; transform: scale(1.05); }}
+    100% { opacity: 5; transform: scale(1.05); }}
 
 header {position: fixed; width: 100%; top: 0;
     z-index: 1000; background-color: rgba(10, 12, 16, 0.7);
@@ -188,7 +188,7 @@ section { padding: 6rem 8%; }
     z-index: 1; will-change: transform;}
 .card::before {content: ''; position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: linear-gradient(rgba(10, 12, 16, 0.88), rgba(10, 12, 16, 0.88)), url('tarjetaabo.jpg') no-repeat center center;
+    background: linear-gradient(rgba(10, 12, 16, 0.88), rgba(10, 12, 16, 0.88)), url('fondoabo.jpg') no-repeat center center;
     background-size: cover; opacity: 0.25;
     filter: grayscale(100%);
     transition: opacity 0.3s ease; z-index: -1;}
