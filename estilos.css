@@ -380,7 +380,7 @@ body { padding-top: 170px; }
 .btn-buy {padding: 0.8rem 2rem; background-color: #22c55e;
     color: #ffffff; border: none; border-radius: 50px; font-size: 0.9rem;
     font-weight: 600; letter-spacing: 0.5px; cursor: pointer;
-    transition: all 0.3s ease; text-transform: uppercase; width: 100%; margin-top: 1rem;}
+    transition: all 0.3s ease; text-transform: uppercase; width: 100%; margin-bottom: 1rem;}
 .btn-buy:hover {background-color: #16a34a;
     transform: translateY(-2px); box-shadow: 0 4px 12px rgba(34, 197, 94, 0.3);}
 
