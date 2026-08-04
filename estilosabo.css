@@ -245,8 +245,14 @@ footer {background-color: #06070a;
 .footer-col p, .footer-col ul {color: var(--text-muted);
     font-size: 0.9rem; list-style: none;}
 .footer-col ul li { margin-bottom: 0.8rem; }
-.footer-col ul li a { color: var(--text-muted); text-decoration: none; }
-.footer-col ul li a:hover { color: var(--gold-primary); }
+.footer-col ul li a {color: var(--text-muted); 
+    text-decoration: none; display: inline-block; 
+    background-image: linear-gradient(var(--gold-primary), var(--gold-primary)); 
+    background-position: 0% 100%; background-repeat: no-repeat;
+    background-size: 0% 2px; 
+    transition: background-size 0.3s ease, color 0.3s ease;}
+.footer-col ul li a:hover {color: var(--gold-primary); 
+    background-size: 100% 2px;}
 .footer-bottom {text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
     padding-top: 2rem; color: var(--text-muted);
