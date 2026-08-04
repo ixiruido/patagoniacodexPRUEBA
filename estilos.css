@@ -35,7 +35,7 @@ nav a {display: inline-block; color: var(--text-light);
     text-transform: uppercase; position: relative; padding: 0.6rem 1.2rem;
     transition: all 0.3s ease; white-space: nowrap;
     border-radius: 25px; font-weight: 500;}
-nav a:hover {background-color: #f3f4f6;
+nav a:hover {background-color: #ecedf0;
     color: var(--gold-primary);
     transform: translateY(-1px);}
 nav a.active {background-color: #000000; color: #ffffff;}
@@ -226,8 +226,14 @@ footer {background-color: #112427;
 .footer-col p, .footer-col ul {color: #9ca3af;
     font-size: 0.9rem; list-style: none;}
 .footer-col ul li { margin-bottom: 0.8rem; }
-.footer-col ul li a { color: #9ca3af; text-decoration: none; }
-.footer-col ul li a:hover { color: #ffffff; }
+.footer-col ul li a {color: #9ca3af; 
+    text-decoration: none;display: inline-block;
+    background-image: linear-gradient(#ffffff, #ffffff);
+    background-position: 0% 100%;
+    background-repeat: no-repeat; background-size: 0% 2px;
+    transition: background-size 0.3s ease, color 0.3s ease;}
+.footer-col ul li a:hover {color: #ffffff; 
+    background-size: 100% 2px;}
 .footer-bottom {text-align: center;
     border-top: 1px solid #374151;
     padding-top: 2rem; color: #9ca3af; font-size: 0.85rem;}
