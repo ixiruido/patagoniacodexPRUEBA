@@ -4,6 +4,21 @@ document.querySelectorAll('.card').forEach(card => {
     card.addEventListener('mouseup', () => {
     card.style.transform = 'translateY(-10px) scale(1)';});});
 
+document.querySelectorAll('.pricing-card').forEach(card => {
+    card.addEventListener('mousedown', () => {
+    card.style.transform = 'translateY(-5px) scale(0.98)';});
+    card.addEventListener('mouseup', () => {
+    card.style.transform = 'translateY(-8px) scale(1)';});});
+
+// Función para alternar condiciones y términos
+function toggleTerms() {
+    const termsContent = document.getElementById('termsContent');
+    const btnTerms = document.querySelector('.btn-terms');
+    
+    termsContent.classList.toggle('open');
+    btnTerms.classList.toggle('active');
+}
+
 // Detección de sección activa en el menú
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('nav a');
