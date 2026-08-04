@@ -1,9 +1,9 @@
 :root {
-    --bg-dark: #2d2520;
-    --bg-card: #3d342e;
-    --bg-card-hover: #4d433d;
-    --gold-primary: #d4b896;
-    --gold-hover: #e8d5b0;
+    --bg-dark: #252d20;
+    --bg-card: #323d2e;
+    --bg-card-hover: #3e4d3d;
+    --gold-primary: #a0d496;
+    --gold-hover: #bde8b0;
     --gold-light: #f5e6d3;
     --text-light: #f5f0eb;
     --text-muted: #c4b8a8;
@@ -116,7 +116,7 @@ section { padding: 6rem 8%; }
     background-color: var(--gold-primary);
     text-decoration: none; font-weight: bold;
     letter-spacing: 2px; text-transform: uppercase;
-    font-size: 0.85rem; border-radius: 3px;
+    font-size: 0.85rem; border-radius: 50px;
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
     box-shadow: 0 4px 15px rgba(212, 184, 150, 0.3);
@@ -163,7 +163,7 @@ section { padding: 6rem 8%; }
 .about-content p {color: var(--text-muted);
     margin-bottom: 1.5rem; font-size: 1.05rem;}
 
-.services h2, .contact h2 {text-align: center;
+.services h2, .contact h2, .gallery h2 {text-align: center;
     font-size: clamp(1.8rem, 5vw, 2.5rem);
     color: var(--gold-primary); margin-bottom: 1rem;
     text-transform: uppercase; letter-spacing: 2px;}
@@ -198,9 +198,6 @@ section { padding: 6rem 8%; }
 
 .gallery {padding: 6rem 8%; background-color: var(--bg-dark);
     background-color: transparent;}
-.gallery h2 {text-align: center; color: var(--gold-primary);
-    font-size: 2.5rem; margin-bottom: 1rem;
-    letter-spacing: 2px;}
 .gallery-subtitle {text-align: center; color: var(--text-muted);
     margin-bottom: 4rem; font-size: 1.1rem;}
 .gallery-grid {display: grid;
@@ -264,7 +261,7 @@ section { padding: 6rem 8%; }
 .instagram-card:hover .contact-icon svg { fill: #e1306c; transform: scale(1.1); }
 .email-card:hover .contact-icon svg { fill: var(--gold-hover); transform: scale(1.1); }
 
-footer {background-color: #66340677;
+footer {background-color: rgba(26, 46, 26, 0.678);
     border-top: 1px solid rgba(212, 184, 150, 0.1);
     padding: 4rem 8% 2rem 8%;}
 .footer-grid {display: grid;
