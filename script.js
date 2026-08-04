@@ -19,3 +19,35 @@ const scrollPosition = window.scrollY + 100;
     navLinks.forEach(link => {link.classList.remove('active');
         if (link.getAttribute('href') === `#${current}`) {
         link.classList.add('active');}});});
+
+document.addEventListener("DOMContentLoaded", function() {
+            const elementosARevelar = document.querySelectorAll('.reveal');
+            const observador = new IntersectionObserver((entradas, miObservador) => {
+                entradas.forEach(entrada => {
+                    if (entrada.isIntersecting) {
+                        // Retraso escalonado para evitar que todas las tarjetas se activen al mismo tiempo
+                        const delay = Array.from(elementosARevelar).indexOf(entrada.target) * 100;
+                        setTimeout(() => {
+                            entrada.target.classList.add('active');
+                        }, delay);
+                        miObservador.unobserve(entrada.target);}});}, 
+                        { root: null, threshold: 0.15, rootMargin: "0px 0px -50px 0px" });
+            elementosARevelar.forEach(el => observador.observe(el));
+
+// Activar sección inicial al cargar
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('nav a');
+            const scrollPosition = window.scrollY + 100;
+
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.offsetHeight;
+                const sectionId = section.getAttribute('id');
+
+                if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                    current = sectionId;}});
+
+            navLinks.forEach(link => {link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');}});});        
