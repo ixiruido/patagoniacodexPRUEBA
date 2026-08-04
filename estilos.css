@@ -34,7 +34,7 @@ header {position: fixed; width: 100%; top: 0; z-index: 1000;
         var(--gold-primary) 100%);
     background-size: 300% auto; -webkit-background-clip: text;
     background-clip: text;-webkit-text-fill-color: transparent;
-    animation: shine-bounce 35s ease-in-out infinite;}
+    animation: shine-bounce 25s ease-in-out infinite;}
 @keyframes shine-bounce {
     0% {background-position: 250% center;}
     35% {background-position: -150% center;}
@@ -188,11 +188,13 @@ transition:all 0.3s cubic-bezier(0.4, 0, 0.2, 1); position: relative;}
 .demo-card:hover h3 {color: #000000;}
 .demo-card p {color: var(--text-light);
     font-size: 0.95rem; line-height: 1.6;}
-.demo-card a {display:inline-block; margin-top:15px;
+
+    .demo-card a {display:inline-block; margin-top:15px;
 color:white; background:var(--gold-primary); padding:10px 20px;
-border-radius:6px; text-decoration:none; transition: all 0.3s ease; font-size: 0.85rem;
+border-radius:25px; text-decoration:none; transition: all 0.3s ease; font-size: 0.85rem;
     border: 2px solid var(--gold-primary);}
 .demo-card a:hover {background:transparent;
+    
     color:var(--gold-primary); transform: translateY(-2px);}
 .demo-card h3 {color: var(--gold-primary); margin-bottom: 1rem;
     font-size: 1.25rem; letter-spacing: 0.5px;

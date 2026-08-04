@@ -34,7 +34,7 @@ header {position: fixed; width: 100%; top: 0; z-index: 1000;
     letter-spacing: 4px; text-transform: uppercase; 
     margin-bottom: 0.8rem; background: linear-gradient(120deg, 
         var(--gold-primary) 0%, 
-        var(--gold-primary) 42%, #45a6b8 50%, 
+        var(--gold-primary) 42%, #45a7b8be 50%, 
         var(--gold-primary) 58%, 
         var(--gold-primary) 100%);
     background-size: 300% auto; -webkit-background-clip: text;
