@@ -117,7 +117,7 @@ section { padding: 6rem 8%; }
     color: var(--gold-primary); margin-bottom: 1rem;
     text-transform: uppercase; letter-spacing: 1px; font-weight: 700;}
 .services-grid {display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
     gap: 2.5rem; margin-top: 3rem; }
 
 .contact h2 { margin-bottom: 0.5rem; }
