@@ -17,7 +17,7 @@ window.addEventListener('scroll', () => {let current = '';
         const sectionId = section.getAttribute('id');
 
         if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-            current = sectionId;});
+            current = sectionId;}});
 
     navLinks.forEach(link => {link.classList.remove('active');
         if (link.getAttribute('href') === `#${current}`) {
