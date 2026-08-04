@@ -237,8 +237,13 @@ footer {background:#0d3d69;
 .footer-col p, .footer-col ul {color:#c9def0;
     font-size: 0.9rem; list-style: none;}
 .footer-col ul li { margin-bottom: 0.8rem; }
-.footer-col ul li a { color:#c9def0; text-decoration: none; }
-.footer-col ul li a:hover { color: #ffffff; }
+.footer-col ul li a {color: #c9def0;  text-decoration: none; 
+    display: inline-block; 
+    background-image: linear-gradient(#ffffff, #ffffff); 
+    background-position: 0% 100%; background-repeat: no-repeat;
+    background-size: 0% 2px; transition: background-size 0.3s ease;}
+.footer-col ul li a:hover {color: #ffffff; 
+    background-size: 100% 2px;}
 .footer-bottom {text-align: center;
     border-top: 1px solid #374151;
     padding-top: 2rem; color: #9ca3af; font-size: 0.85rem;}
