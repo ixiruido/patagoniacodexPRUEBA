@@ -182,7 +182,6 @@ transition:all 0.3s cubic-bezier(0.4, 0, 0.2, 1); position: relative;}
 .demo-card:hover::before {opacity: 1;}
 .demo-card img {width:100%; height:220px; object-fit:cover;
     transition: transform 0.3s ease;}
-.demo-card:hover img {transform: scale(1.05);}
 .demo-card div {padding:25px;}
 .demo-card h3 {font-size:1.25rem; color:var(--gold-primary); font-weight: 600;
     transition: color 0.3s ease;}
@@ -354,7 +353,7 @@ body { padding-top: 170px; }
     overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     display: flex; flex-direction: column;}
-.pricing-card:hover {transform: translateY(-3px);
+.pricing-card:hover {transform: translateY(-2px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
     border-color: #000000;}
 
