@@ -37,7 +37,7 @@ header {position: fixed; width: 100%; top: 0;
     align-items: center; padding: 1.2rem 20px;}
 .logo {font-size: 1.8rem; font-weight: bold;
     letter-spacing: 4px; text-transform: uppercase; 
-    margin-bottom: 0.8rem; background: linear-gradient(120deg, 
+    margin-bottom: 0.6rem; background: linear-gradient(120deg, 
         var(--gold-primary) 0%, 
         var(--gold-primary) 42%, #cddb4ed0 50%, 
         var(--gold-primary) 58%, 
@@ -56,7 +56,7 @@ nav {display: flex; justify-content: center;
     flex-wrap: nowrap; max-width: 800px;
     margin: 0 auto;
     border-top: 1px solid rgba(212, 175, 55, 0.25);
-    padding-top: 0.1rem; margin-top: 0.1rem;}
+    padding-top: 0.6rem; margin-top: 0.1rem;}
 nav a {display: inline-block; margin: 0 2rem;
     color: var(--text-light); text-decoration: none;
     font-size: 0.8rem; letter-spacing: 1px;
