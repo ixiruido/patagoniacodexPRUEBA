@@ -88,7 +88,7 @@ nav a::after {content: ''; position: absolute; bottom: 0;
 
 nav a:hover::after { width: 100%; left: 0; }
 
-section { padding: 6rem 8%; }
+section { padding: 3rem 8%; }
 
 #inicio, #sobre-mi, #servicios, #galeria, #contacto, #ubicacion { scroll-margin-top: 50px; }
 

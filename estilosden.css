@@ -63,7 +63,7 @@ nav a.active{
     background:linear-gradient(135deg,var(--gold-primary),var(--accent));
     color:#fff;
     box-shadow:0 10px 25px rgba(43,168,224,.25);}
-section { padding: 6rem 8%; }
+section { padding: 3rem 8%; }
 
 #inicio, #sobre-mi, #servicios, #contacto, #demos { scroll-margin-top: 50px; }
 

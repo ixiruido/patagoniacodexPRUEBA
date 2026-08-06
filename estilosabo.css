@@ -72,7 +72,7 @@ nav a::after {content: ''; position: absolute;
     transition: width 0.35s ease, left 0.35s ease;}
 nav a:hover::after { width: 100%; left: 0; }
 
-section { padding: 6rem 8%; }
+section { padding: 3rem 8%; }
 #inicio, #sobre-mi, #servicios, #contacto, #ubicacion { scroll-margin-top: 50px; }
 
 .hero {
