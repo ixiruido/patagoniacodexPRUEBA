@@ -1,0 +1,23 @@
+backend:
+  name: github
+  repo: TU_USUARIO/TU_REPOSITORIO
+  branch: main
+
+media_folder: "src/assets/images"
+public_folder: "/assets/images"
+
+collections:
+  - name: "pagina"
+    label: "Página"
+    files:
+      - name: "home"
+        label: "Página principal"
+        file: "content/home.json"
+        fields:
+          - label: "Título"
+            name: "titulo"
+            widget: "string"
+
+          - label: "Descripción"
+            name: "descripcion"
+            widget: "text"
