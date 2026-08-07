@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: TU_USUARIO/TU_REPOSITORIO
+  repo: ixiruido/patagoniacodex
   branch: main
 
 media_folder: "src/assets/images"
