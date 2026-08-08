@@ -48,7 +48,7 @@
   },
   "secciones": [
     {
-      "tipo": "hero",
+      "type": "hero",
       "id": "inicio",
       "titulo": "Tu negocio merece una presencia digital profesional",
       "subtitulo": "Creamos sitios web profesionales para aumentar la visibilidad de tu negocio, generar confianza y ayudarte a conseguir más clientes.",
@@ -57,7 +57,7 @@
       "fondo": "/assets/images/fondo.jpg"
     },
     {
-      "tipo": "about",
+      "type": "about",
       "id": "sobre-mi",
       "titulo": "Qué ofrecemos",
       "texto": "✔️ Tu propio dominio registrado a tu nombre.<br>✔️ Un sitio web profesional que fortalezca tu marca.<br>✔️ Una presencia digital que genere confianza.<br>✔️ Un diseño moderno y personalizado.<br>✔️ Un sitio optimizado para destacar en buscadores.<br>✔️ Una herramienta disponible las 24 horas para potenciales clientes.",
@@ -65,7 +65,7 @@
       "imagen_alt": "Diseño Web para Profesionales Patagonia Codex"
     },
     {
-      "tipo": "services",
+      "type": "services",
       "id": "servicios",
       "titulo": "Servicios",
       "tarjetas": [
@@ -88,25 +88,25 @@
       ]
     },
     {
-      "tipo": "contact",
+      "type": "contact",
       "id": "contacto",
       "titulo": "Contactanos",
       "subtitulo": "Selecciona el medio de tu preferencia:",
       "tarjetas": [
         {
-          "tipo": "whatsapp",
+          "type": "whatsapp",
           "titulo": "WhatsApp",
           "descripcion": "Mensaje Directo e Inmediato",
           "url": "https://wa.me/5492996100676?text=Hola!"
         },
         {
-          "tipo": "instagram",
+          "type": "instagram",
           "titulo": "Instagram",
           "descripcion": "@ixi.real",
           "url": "https://www.instagram.com/ixi.real/"
         },
         {
-          "tipo": "email",
+          "type": "email",
           "titulo": "Correo Electrónico",
           "descripcion": "ixi@patagoniacodex.com",
           "url": "mailto:ixi@patagoniacodex.com"
@@ -114,7 +114,7 @@
       ]
     },
     {
-      "tipo": "pricing",
+      "type": "pricing",
       "id": "precios",
       "titulo": "Precios",
       "subtitulo": "Todo lo que necesitás para tener una presencia profesional en Internet, en un solo servicio.",
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "tipo": "demos",
+      "type": "demos",
       "id": "demos",
       "titulo": "DEMOS",
       "subtitulo": "Explora ejemplos de sitios web que podemos crear para tu negocio.",

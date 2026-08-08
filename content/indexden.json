@@ -32,7 +32,7 @@
   },
   "secciones": [
     {
-      "tipo": "hero",
+      "type": "hero",
       "id": "inicio",
       "titulo": "Cuidamos tu sonrisa con atención profesional y tecnología de vanguardia.",
       "subtitulo": "Brindamos atención odontológica integral para niños, adolescentes y adultos, ofreciendo tratamientos personalizados en un ambiente cómodo, seguro y profesional.",
@@ -40,7 +40,7 @@
       "boton_url": "#contacto"
     },
     {
-      "tipo": "about",
+      "type": "about",
       "id": "sobre-mi",
       "titulo": "Tu salud bucal es nuestra prioridad",
       "texto": [
@@ -51,7 +51,7 @@
       "imagen_alt": "Equipo odontológico"
     },
     {
-      "tipo": "services",
+      "type": "services",
       "id": "servicios",
       "titulo": "Servicios Odontológicos",
       "tarjetas": [
@@ -82,25 +82,25 @@
       ]
     },
     {
-      "tipo": "contact",
+      "type": "contact",
       "id": "contacto",
       "titulo": "Contactanos",
       "subtitulo": "Elegí el medio de contacto que prefieras para solicitar un turno o realizar una consulta.",
       "tarjetas": [
         {
-          "tipo": "whatsapp",
+          "type": "whatsapp",
           "titulo": "WhatsApp",
           "descripcion": "Solicitá tu turno",
           "url": "https://wa.me"
         },
         {
-          "tipo": "instagram",
+          "type": "instagram",
           "titulo": "Instagram",
           "descripcion": "@clinicaodontologica",
           "url": "https://instagram.com"
         },
         {
-          "tipo": "email",
+          "type": "email",
           "titulo": "Correo",
           "descripcion": "contacto@clinicaodontologica.com",
           "url": "mailto:hola@novawebstudio.com"
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "tipo": "location",
+      "type": "location",
       "id": "ubicacion",
       "titulo": "Nuestra Clínica",
       "subtitulo": "Un espacio moderno pensado para tu comodidad y bienestar.",

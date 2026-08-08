@@ -36,7 +36,7 @@
   },
   "secciones": [
     {
-      "tipo": "hero",
+      "type": "hero",
       "id": "inicio",
       "titulo": "Tu Refugio de Paz en la Montaña",
       "subtitulo": "Descubre la serenidad de la naturaleza en nuestra cabaña, un espacio diseñado para desconectar, descansar y renovar el espíritu.",
@@ -44,7 +44,7 @@
       "boton_url": "#contacto"
     },
     {
-      "tipo": "about",
+      "type": "about",
       "id": "sobre-mi",
       "titulo": "Nuestra Cabaña",
       "texto": [
@@ -55,7 +55,7 @@
       "imagen_alt": "Cabaña en el bosque"
     },
     {
-      "tipo": "services",
+      "type": "services",
       "id": "servicios",
       "titulo": "Servicios del Alquiler",
       "tarjetas": [
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "tipo": "gallery",
+      "type": "gallery",
       "id": "galeria",
       "titulo": "Galería de la Cabaña",
       "subtitulo": "Imágenes de nuestro refugio en la montaña",
@@ -124,25 +124,25 @@
       ]
     },
     {
-      "tipo": "contact",
+      "type": "contact",
       "id": "contacto",
       "titulo": "Contacto y Reservas",
       "subtitulo": "Contáctanos para consultar disponibilidad y realizar tu reserva:",
       "tarjetas": [
         {
-          "tipo": "whatsapp",
+          "type": "whatsapp",
           "titulo": "WhatsApp",
           "descripcion": "Escríbenos para consultas rápidas",
           "url": "https://wa.me"
         },
         {
-          "tipo": "instagram",
+          "type": "instagram",
           "titulo": "Instagram",
           "descripcion": "@cabana_del_bosque",
           "url": "https://instagram.com"
         },
         {
-          "tipo": "email",
+          "type": "email",
           "titulo": "Correo Electrónico",
           "descripcion": "reservas@cabanadelbosque.com",
           "url": "mailto:reservas@cabanadelbosque.com"
@@ -150,7 +150,7 @@
       ]
     },
     {
-      "tipo": "location",
+      "type": "location",
       "id": "ubicacion",
       "titulo": "Nuestra Ubicación",
       "subtitulo": "Ubicada en un paraíso natural, a minutos de la ciudad",

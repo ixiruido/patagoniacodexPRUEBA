@@ -32,7 +32,7 @@
   },
   "secciones": [
     {
-      "tipo": "hero",
+      "type": "hero",
       "id": "inicio",
       "estilo": "margin-top: -75px",
       "titulo": "Soluciones Legales de Confianza",
@@ -41,7 +41,7 @@
       "boton_url": "#contacto"
     },
     {
-      "tipo": "about",
+      "type": "about",
       "id": "sobre-mi",
       "titulo": "Sobre el Profesional",
       "texto": [
@@ -52,7 +52,7 @@
       "imagen_alt": "Fotografía Profesional"
     },
     {
-      "tipo": "services",
+      "type": "services",
       "id": "servicios",
       "titulo": "Áreas de Especialización",
       "tarjetas": [
@@ -71,25 +71,25 @@
       ]
     },
     {
-      "tipo": "contact",
+      "type": "contact",
       "id": "contacto",
       "titulo": "Canales de Atención Directa",
       "subtitulo": "Seleccione el medio de su preferencia para iniciar su consulta legal:",
       "tarjetas": [
         {
-          "tipo": "whatsapp",
+          "type": "whatsapp",
           "titulo": "WhatsApp",
           "descripcion": "Mensaje Directo e Inmediato",
           "url": "https://wa.me"
         },
         {
-          "tipo": "instagram",
+          "type": "instagram",
           "titulo": "Instagram",
           "descripcion": "@tu_usuario_de_abogado",
           "url": "https://instagram.com"
         },
         {
-          "tipo": "email",
+          "type": "email",
           "titulo": "Correo Electrónico",
           "descripcion": "contacto@estudiojuridico.com",
           "url": "mailto:contacto@estudiojuridico.com"
@@ -97,7 +97,7 @@
       ]
     },
     {
-      "tipo": "location",
+      "type": "location",
       "id": "ubicacion",
       "titulo": "Nuestra Ubicación",
       "subtitulo": "Visítenos en nuestra oficina central para una atención personalizada",
