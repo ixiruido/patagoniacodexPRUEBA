@@ -67,7 +67,7 @@ permalink: index.html
         </nav>
     </header>
 <h1>PRUEBA SECCIONES: {{ secciones | dump }}</h1>
-    {% for seccion in secciones %}
+    {% for seccion in index.secciones %}
     {% if seccion.type == "hero" %}
     <section class="hero" id="{{ seccion.id }}">
         <h1>{{ seccion.titulo }}</h1>
