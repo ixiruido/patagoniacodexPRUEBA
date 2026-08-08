@@ -2,7 +2,12 @@ module.exports = function(eleventyConfig) {
   // CMS
   eleventyConfig.addPassthroughCopy("admin");
 
-  // Archivos estáticos que siguen estando en la raíz
+  // Archivos estáticos de src/
+  eleventyConfig.addPassthroughCopy("src/*.css");
+  eleventyConfig.addPassthroughCopy("src/*.js");
+  eleventyConfig.addPassthroughCopy("src/assets/images");
+
+  // Archivos estáticos que siguen estando en la raíz (para HTML originales)
   eleventyConfig.addPassthroughCopy("*.html");
   eleventyConfig.addPassthroughCopy("*.css");
   eleventyConfig.addPassthroughCopy("*.js");
