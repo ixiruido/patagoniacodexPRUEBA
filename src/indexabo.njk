@@ -1,33 +1,38 @@
 ---
 permalink: indexabo.html
+indexabo: indexabo
 ---
+
+
+
+
 
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta name="robots" content="{{ meta.robots }}">
+    <meta name="robots" content="{{ indexabo.meta.robots }}">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ meta.titulo }}</title>
+    <title>{{ indexabo.meta.titulo }}</title>
     <link rel="preconnect" href="https://googleapis.com">
     <link rel="preconnect" href="https://gstatic.com" crossorigin>
     <link href="https://googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="preload" as="image" href="{{ meta.fondo }}">
+    <link rel="preload" as="image" href="{{ indexabo.meta.fondo }}">
     <link rel="stylesheet" href="estilosabo.css">
-    <link rel="icon" href="{{ meta.favicon }}" type="image/png">
+    <link rel="icon" href="{{ indexabo.meta.favicon }}" type="image/png">
 </head>
 <body>
 
     <header>
-        <div class="logo">{{ header.logo }}</div>
+        <div class="logo">{{ indexabo.header.logo }}</div>
         <nav>
-            {% for nav in header.navegacion %}
+            {% for nav in indexabo.header.navegacion %}
             <a href="{{ nav.url }}">{{ nav.texto }}</a>
             {% endfor %}
         </nav>
     </header>
 
-    {% for seccion in secciones %}
+    {% for seccion in indexabo.secciones %}
     {% if seccion.type == "hero" %}
     <section class="hero" id="{{ seccion.id }}" {% if seccion.estilo %}style="{{ seccion.estilo }}"{% endif %}>
         <h1>{{ seccion.titulo }}</h1>
@@ -134,39 +139,39 @@ permalink: indexabo.html
     <footer>
         <div class="footer-grid">
             <div class="footer-col">
-                <h4>{{ footer.columna1_titulo }}</h4>
-                <p>{{ footer.columna1_texto }}</p>
+                <h4>{{ indexabo.footer.columna1_titulo }}</h4>
+                <p>{{ indexabo.footer.columna1_texto }}</p>
             </div>
             <div class="footer-col">
-                <h4>{{ footer.columna2_titulo }}</h4>
+                <h4>{{ indexabo.footer.columna2_titulo }}</h4>
                 <ul>
-                    {% for nav in footer.navegacion %}
+                    {% for nav in indexabo.footer.navegacion %}
                     <li><a href="{{ nav.url }}">{{ nav.texto }}</a></li>
                     {% endfor %}
                 </ul>
             </div>
             <div class="footer-col">
-                <h4>{{ footer.columna3_titulo }}</h4>
-                <ul><li><a href="{{ footer.email_url }}">{{ footer.email }}</a></ul></li>
-                <p>{{ footer.horario }}<br>{{ footer.direccion }}</p>
-                <ul><li><a href="{{ footer.whatsapp_url }}"><br>{{ footer.whatsapp_texto }}</a></ul></li>
+                <h4>{{ indexabo.footer.columna3_titulo }}</h4>
+                <ul><li><a href="{{ indexabo.footer.email_url }}">{{ indexabo.footer.email }}</a></ul></li>
+                <p>{{ indexabo.footer.horario }}<br>{{ indexabo.footer.direccion }}</p>
+                <ul><li><a href="{{ indexabo.footer.whatsapp_url }}"><br>{{ indexabo.footer.whatsapp_texto }}</a></ul></li>
             </div>
             <div class="footer-col">
-                <h4>{{ footer.columna4_titulo }}</h4>
+                <h4>{{ indexabo.footer.columna4_titulo }}</h4>
                 <p>
-                    <img src="{{ footer.qr_imagen }}" alt="{{ footer.qr_alt }}" style="max-width: 100px; width: 100%; height: auto;"><br>
-                    {{ footer.qr_texto }}
+                    <img src="{{ indexabo.footer.qr_imagen }}" alt="{{ indexabo.footer.qr_alt }}" style="max-width: 100px; width: 100%; height: auto;"><br>
+                    {{ indexabo.footer.qr_texto }}
                 </p>
             </div>
         </div>
-        
+
         <div class="footer-bottom">
-            <p>{{ footer.copyright }}</p>
-            <a href="{{ footer.patagonia_link }}" style="font-size: 0.6rem; text-decoration: none; color: rgb(32, 30, 30);">PATAGONIA CODEX</a>
+            <p>{{ indexabo.footer.copyright }}</p>
+            <a href="{{ indexabo.footer.patagonia_link }}" style="font-size: 0.6rem; text-decoration: none; color: rgb(32, 30, 30);">PATAGONIA CODEX</a>
         </div>
     </footer>
 
-    <a href="{{ footer.whatsapp_float_url }}" class="whatsapp-float" target="_blank" rel="noopener noreferrer" title="Contactar por WhatsApp">
+    <a href="{{ indexabo.footer.whatsapp_float_url }}" class="whatsapp-float" target="_blank" rel="noopener noreferrer" title="Contactar por WhatsApp">
         <svg viewBox="0 0 32 32">
             <path d="M16 2a13 13 0 0 0-11.3 19.4L3 29l7.8-2A13 13 0 1 0 16 2zm0 24a11 11 0 0 1-5.6-1.5l-.4-.2-4.6 1.2 1.2-4.5-.3-.4A11 11 0 1 1 16 26zm6-8.2c-.3-.2-1.9-1-2.2-1-.3-.2-.5-.2-.8.2s-1 1.2-1.2 1.5-.4.3-.8.1a10 10 0 0 1-3-1.8 11 11 0 0 1-2-2.6c-.3-.5 0-.8.2-1l.6-.7.3-.5c.2-.3.1-.6 0-.8s-.7-1.7-1-2.4c-.3-.7-.6-.6-.8-.6h-.7a1.4 1.4 0 0 0-1 1.1A5.3 5.3 0 0 0 9 14a11 11 0 0 0 4.6 6.1c.5.3 1 .6 1.7.8a6.4 6.4 0 0 0 2.6.2 4.3 4.3 0 0 0 2.9-2 3.5 3.5 0 0 0 .2-2.1c-.1-.3-.4-.5-.8-.7z"/>
         </svg>
