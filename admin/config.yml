@@ -11,8 +11,11 @@ public_folder: "/assets/images"
 collections:
   - name: "home"
     label: "Página Principal (Patagonia Codex)"
-    file: "content/home.json"
-    fields:
+    files:
+      - name: "home"
+        label: "Página principal"
+        file: "content/home.json"
+        fields:
       - label: "Meta Información"
         name: "meta"
         widget: "object"
@@ -173,8 +176,11 @@ collections:
 
   - name: "indexabo"
     label: "Demo Estudio Jurídico"
-    file: "content/indexabo.json"
-    fields:
+    files:
+      - name: "indexabo"
+        label: "Demo Estudio Jurídico"
+        file: "content/indexabo.json"
+        fields:
       - label: "Meta Información"
         name: "meta"
         widget: "object"
@@ -295,8 +301,11 @@ collections:
 
   - name: "indexcab"
     label: "Demo Cabaña del Bosque"
-    file: "content/indexcab.json"
-    fields:
+    files:
+      - name: "indexcab"
+        label: "Demo Cabaña del Bosque"
+        file: "content/indexcab.json"
+        fields:
       - label: "Meta Información"
         name: "meta"
         widget: "object"
@@ -430,8 +439,11 @@ collections:
 
   - name: "indexden"
     label: "Demo Clínica Odontológica"
-    file: "content/indexden.json"
-    fields:
+    files:
+      - name: "indexden"
+        label: "Demo Clínica Odontológica"
+        file: "content/indexden.json"
+        fields:
       - label: "Meta Información"
         name: "meta"
         widget: "object"
