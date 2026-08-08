@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: ixiruido/patagoniacodex
+  repo: ixiruido/patagoniacodexPRUEBA
   branch: main
   base_url: https://patagoniacodex-cms-auth.ixi-b.workers.dev
   auth_endpoint: auth
