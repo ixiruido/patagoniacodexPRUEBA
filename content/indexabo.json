@@ -1,6 +1,6 @@
 {
   "meta": {
-    "titulo": "Estudio Jurídico - Excelencia y Profesionalismo",
+    "titulo": "Estudio Jurídico - Excelencia y Profesionalismo PRUEBA",
     "robots": "noindex, follow",
     "favicon": "/assets/images/faviconabo.png",
     "fondo": "/assets/images/fondoabo.jpg"
@@ -80,39 +80,39 @@
           "type": "whatsapp",
           "titulo": "WhatsApp",
           "descripcion": "Mensaje Directo e Inmediato",
-          "url": "https://wa.me"
+          "url": "https://wa.me",
+          "tipo": "whatsapp"
         },
         {
           "type": "instagram",
           "titulo": "Instagram",
           "descripcion": "@tu_usuario_de_abogado",
-          "url": "https://instagram.com"
+          "url": "https://instagram.com",
+          "tipo": "instagram"
         },
         {
           "type": "email",
           "titulo": "Correo Electrónico",
           "descripcion": "contacto@estudiojuridico.com",
-          "url": "mailto:contacto@estudiojuridico.com"
+          "url": "mailto:contacto@estudiojuridico.com",
+          "tipo": "email"
         }
       ]
     },
     {
-      "type": "location",
-      "id": "ubicacion",
-      "titulo": "Nuestra Ubicación",
-      "subtitulo": "Visítenos en nuestra oficina central para una atención personalizada",
-      "titulo_info": "Oficina Central",
-      "direccion": "Av. Argentina 1200, Piso 4<br>Neuquén Capital, Argentina",
       "horario": "Lun a Vie - 9:00 a 18:00 hs",
+      "direccion": "Av. Argentina 1200, Piso 4<br>Neuquén Capital, Argentina",
+      "mapa_titulo": "Ubicación del Estudio Jurídico",
+      "titulo_info": "Oficina Central",
       "telefono": "+54 299 123-4567",
       "mapa_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.123456789!2d-68.054321!3d-38.956789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDU3JzI0LjQiUyA2OMKwMDMnMTUuNiJX!5e0!3m2!1ses!2sar!4v1234567890",
-      "mapa_titulo": "Ubicación del Estudio Jurídico"
+      "subtitulo": "Visítenos en nuestra oficina central para una atención personalizada",
+      "titulo": "Nuestra Ubicación",
+      "type": "location",
+      "id": "ubicacion"
     }
   ],
   "footer": {
-    "columna1_titulo": "El Estudio",
-    "columna1_texto": "Compromiso inquebrantable con la justicia, ofreciendo soluciones de primer nivel a particulares y firmas comerciales corporativas.",
-    "columna2_titulo": "Navegación",
     "navegacion": [
       {
         "texto": "Inicio",
@@ -135,19 +135,22 @@
         "url": "#ubicacion"
       }
     ],
-    "columna3_titulo": "Oficina Central",
-    "email": "contacto@estudiojuridico.com",
-    "email_url": "mailto:hcontacto@estudiojuridico.com",
-    "horario": "Horario: Lun a Vie - 9:00 a 18:00 hs",
-    "direccion": "Av. Argentina 1200, Piso 4<br>Neuquén Capital, Argentina",
-    "whatsapp_texto": "Contactanos por WhatsApp",
     "whatsapp_url": "https://wa.me",
-    "columna4_titulo": "QR",
-    "qr_imagen": "/assets/images/qr.jpg",
-    "qr_alt": "QR",
+    "horario": "Horario: Lun a Vie - 9:00 a 18:00 hs",
     "qr_texto": "Accede desde<br> el celular",
     "copyright": "&copy; 2026 Estudio Jurídico & Asociados. Todos los derechos reservados.",
+    "columna1_texto": "Compromiso inquebrantable con la justicia, ofreciendo soluciones de primer nivel a particulares y firmas comerciales corporativas.",
+    "qr_alt": "QR",
+    "email_url": "mailto:hcontacto@estudiojuridico.com",
+    "columna4_titulo": "QR",
+    "direccion": "Av. Argentina 1200, Piso 4<br>Neuquén Capital, Argentina",
+    "columna3_titulo": "Oficina Central",
+    "columna2_titulo": "Navegación",
+    "qr_imagen": "/assets/images/qr.jpg",
+    "columna1_titulo": "El Estudio",
+    "whatsapp_texto": "Contactanos por WhatsApp",
     "patagonia_link": "./index.html",
+    "email": "contacto@estudiojuridico.com",
     "whatsapp_float_url": "https://wa.me"
   }
 }
