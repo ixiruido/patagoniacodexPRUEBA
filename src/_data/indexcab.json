@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "titulo": "Cabaña del Bosque - Tu Refugio de Paz",
+    "robots": "noindex, follow",
+    "favicon": "/assets/images/faviconcab.png",
+    "fondo": "/assets/images/fondocab.jpg"
+  },
+  "header": {
+    "logo": "Cabaña del Bosque",
+    "navegacion": [
+      {
+        "texto": "🏠 Inicio",
+        "url": "#inicio"
+      },
+      {
+        "texto": "🌲 La Cabaña",
+        "url": "#sobre-mi"
+      },
+      {
+        "texto": "✨ Servicios",
+        "url": "#servicios"
+      },
+      {
+        "texto": "📷 Galería",
+        "url": "#galeria"
+      },
+      {
+        "texto": "📬 Contacto",
+        "url": "#contacto"
+      },
+      {
+        "texto": "📍 Ubicación",
+        "url": "#ubicacion"
+      }
+    ]
+  },
+  "secciones": [
+    {
+      "type": "hero",
+      "id": "inicio",
+      "titulo": "Tu Refugio de Paz en la Montaña",
+      "subtitulo": "Descubre la serenidad de la naturaleza en nuestra cabaña, un espacio diseñado para desconectar, descansar y renovar el espíritu.",
+      "boton_texto": "Reservar Ahora",
+      "boton_url": "#contacto"
+    },
+    {
+      "type": "about",
+      "id": "sobre-mi",
+      "titulo": "Nuestra Cabaña",
+      "texto": [
+        "Ubicada en el corazón de la montaña, nuestra cabaña te ofrece un refugio perfecto para escapar del ruido de la ciudad. Rodeada de bosques nativos y con vistas impresionantes, es el lugar ideal para reconnectar con la naturaleza.",
+        "Diseñada con materiales nobles y un estilo rústico acogedor, la cabaña cuenta con todas las comodidades modernas para que tu estadía sea inolvidable. Ven solo, en pareja o en familia, y vive la experiencia de paz y tranquilidad que mereces."
+      ],
+      "imagen": "/assets/images/fotocab.jpg",
+      "imagen_alt": "Cabaña en el bosque"
+    },
+    {
+      "type": "services",
+      "id": "servicios",
+      "titulo": "Servicios del Alquiler",
+      "tarjetas": [
+        {
+          "titulo": "📶 WiFi de Alta Velocidad",
+          "descripcion": "Conexión estable y rápida para trabajar o mantener el contacto con el mundo exterior."
+        },
+        {
+          "titulo": "🍳 Cocina Equipada",
+          "descripcion": "Hornalla, heladera, microondas y vajilla completa para preparar tus comidas."
+        },
+        {
+          "titulo": "🔥 Chimenea",
+          "descripcion": "Chimenea a leña para las noches frías, creando un ambiente cálido y acogedor."
+        },
+        {
+          "titulo": "🅿️ Estacionamiento",
+          "descripcion": "Estacionamiento privado y cubierto para tu vehículo durante toda tu estadía."
+        },
+        {
+          "titulo": "🍖 Parrilla",
+          "descripcion": "Parrilla al aire libre con mesón y asador para disfrutar de asados con amigos."
+        },
+        {
+          "titulo": "📺 Televisión Satelital",
+          "descripcion": "TV con cable y Netflix para tus momentos de relax dentro de la cabaña."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "galeria",
+      "titulo": "Galería de la Cabaña",
+      "subtitulo": "Imágenes de nuestro refugio en la montaña",
+      "imagenes": [
+        {
+          "src": "/assets/images/foto1.jpg",
+          "alt": "Exterior de la cabaña",
+          "caption": "Exterior"
+        },
+        {
+          "src": "/assets/images/foto2.jpg",
+          "alt": "Sala de estar con chimenea",
+          "caption": "Sala de Estar"
+        },
+        {
+          "src": "/assets/images/foto3.jpg",
+          "alt": "Cocina equipada",
+          "caption": "Cocina"
+        },
+        {
+          "src": "/assets/images/foto4.jpg",
+          "alt": "Dormitorio principal",
+          "caption": "Dormitorio"
+        },
+        {
+          "src": "/assets/images/foto5.jpg",
+          "alt": "Baño moderno",
+          "caption": "Baño"
+        },
+        {
+          "src": "/assets/images/foto6.jpg",
+          "alt": "Parrilla al aire libre",
+          "caption": "Parrilla"
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "contacto",
+      "titulo": "Contacto y Reservas",
+      "subtitulo": "Contáctanos para consultar disponibilidad y realizar tu reserva:",
+      "tarjetas": [
+        {
+          "type": "whatsapp",
+          "titulo": "WhatsApp",
+          "descripcion": "Escríbenos para consultas rápidas",
+          "url": "https://wa.me"
+        },
+        {
+          "type": "instagram",
+          "titulo": "Instagram",
+          "descripcion": "@cabana_del_bosque",
+          "url": "https://instagram.com"
+        },
+        {
+          "type": "email",
+          "titulo": "Correo Electrónico",
+          "descripcion": "reservas@cabanadelbosque.com",
+          "url": "mailto:reservas@cabanadelbosque.com"
+        }
+      ]
+    },
+    {
+      "type": "location",
+      "id": "ubicacion",
+      "titulo": "Nuestra Ubicación",
+      "subtitulo": "Ubicada en un paraíso natural, a minutos de la ciudad",
+      "titulo_info": "Cabaña del Bosque",
+      "direccion": "Camino a la Montaña Km 15<br>San Martín de los Andes, Argentina",
+      "horario": "Check-in: 14:00 hs<br>Check-out: 11:00 hs",
+      "telefono": "+54 2972 123-4567",
+      "mapa_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.123456789!2d-71.354321!3d-40.156789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDA5JzI0LjQiUyA3McKwMjEnMTUuNiJX!5e0!3m2!1ses!2sar!4v1234567890",
+      "mapa_titulo": "Ubicación de la Cabaña"
+    }
+  ],
+  "footer": {
+    "columna1_titulo": "La Cabaña",
+    "columna1_texto": "Tu refugio de paz en la montaña, donde la naturaleza y la comodidad se encuentran para crear experiencias inolvidables.",
+    "columna2_titulo": "Enlaces Útiles",
+    "navegacion": [
+      {
+        "texto": "🏠 Inicio",
+        "url": "#inicio"
+      },
+      {
+        "texto": "🌲 La Cabaña",
+        "url": "#sobre-mi"
+      },
+      {
+        "texto": "✨ Servicios",
+        "url": "#servicios"
+      },
+      {
+        "texto": "📷 Galería",
+        "url": "#galeria"
+      },
+      {
+        "texto": "📬 Contacto",
+        "url": "#contacto"
+      },
+      {
+        "texto": "📍 Ubicación",
+        "url": "#ubicacion"
+      }
+    ],
+    "columna3_titulo": "Ubicación",
+    "email": "reservas@cabanadelbosque.com",
+    "email_url": "mailto:reservas@cabanadelbosque.com",
+    "direccion": "Camino a la Montaña Km 15<br>San Martín de los Andes, Argentina<br>Check-in: 14:00 hs | Check-out: 11:00 hs",
+    "whatsapp_texto": "Contactanos por WhatsApp",
+    "whatsapp_url": "https://wa.me",
+    "columna4_titulo": "QR",
+    "qr_imagen": "/assets/images/qr.jpg",
+    "qr_alt": "QR",
+    "qr_texto": "Accede desde<br> el celular",
+    "copyright": "&copy; 2026 Cabaña del Bosque. Todos los derechos reservados.",
+    "patagonia_link": "./index.html",
+    "whatsapp_float_url": "https://wa.me"
+  }
+}
