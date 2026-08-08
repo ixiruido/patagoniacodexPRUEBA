@@ -2,7 +2,7 @@ backend:
   name: github
   repo: ixiruido/patagoniacodexPRUEBA
   branch: main
-  base_url: https://patagoniacodex-cms-auth.ixi-b.workers.dev
+base_url: https://patagoniacodexprueba.ixi-b.workers.dev
   auth_endpoint: auth
 
 media_folder: "src/assets/images"
