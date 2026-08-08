@@ -14,7 +14,7 @@ collections:
     files:
       - name: "home"
         label: "Página Principal"
-        file: "content/home.json"
+        file: "src/_data/index.json"
         fields:
           - label: "Meta"
             name: "meta"
@@ -61,7 +61,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "hero"
                   - label: "ID"
@@ -87,7 +87,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "about"
                   - label: "ID"
@@ -98,7 +98,10 @@ collections:
                     widget: "string"
                   - label: "Texto"
                     name: "texto"
-                    widget: "text"
+                    widget: "list"
+                    field:
+                      label: "Párrafo"
+                      widget: "string"
                   - label: "Imagen"
                     name: "imagen"
                     widget: "image"
@@ -110,7 +113,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "services"
                   - label: "ID"
@@ -134,7 +137,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "contact"
                   - label: "ID"
@@ -171,7 +174,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "pricing"
                   - label: "ID"
@@ -213,7 +216,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "demos"
                   - label: "ID"
@@ -272,7 +275,7 @@ collections:
     files:
       - name: "indexabo"
         label: "Estudio Jurídico"
-        file: "content/indexabo.json"
+        file: "src/_data/indexabo.json"
         fields:
           - label: "Meta"
             name: "meta"
@@ -310,7 +313,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "hero"
                   - label: "ID"
@@ -333,7 +336,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "about"
                   - label: "ID"
@@ -360,7 +363,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "services"
                   - label: "ID"
@@ -384,7 +387,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "contact"
                   - label: "ID"
@@ -421,7 +424,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "location"
                   - label: "ID"
@@ -467,7 +470,7 @@ collections:
     files:
       - name: "indexcab"
         label: "Cabaña del Bosque"
-        file: "content/indexcab.json"
+        file: "src/_data/indexcab.json"
         fields:
           - label: "Meta"
             name: "meta"
@@ -505,7 +508,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "hero"
                   - label: "ID"
@@ -528,7 +531,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "about"
                   - label: "ID"
@@ -555,7 +558,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "services"
                   - label: "ID"
@@ -579,7 +582,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "gallery"
                   - label: "ID"
@@ -609,7 +612,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "contact"
                   - label: "ID"
@@ -646,7 +649,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "location"
                   - label: "ID"
@@ -692,7 +695,7 @@ collections:
     files:
       - name: "indexden"
         label: "Clínica Odontológica"
-        file: "content/indexden.json"
+        file: "src/_data/indexden.json"
         fields:
           - label: "Meta"
             name: "meta"
@@ -730,7 +733,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "hero"
                   - label: "ID"
@@ -753,7 +756,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "about"
                   - label: "ID"
@@ -780,7 +783,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "services"
                   - label: "ID"
@@ -804,7 +807,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "contact"
                   - label: "ID"
@@ -841,7 +844,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "location"
                   - label: "ID"
