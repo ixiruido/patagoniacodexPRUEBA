@@ -61,7 +61,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "hero"
                   - label: "ID"
@@ -87,7 +87,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "about"
                   - label: "ID"
@@ -110,7 +110,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "services"
                   - label: "ID"
@@ -134,7 +134,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "contact"
                   - label: "ID"
@@ -171,7 +171,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "pricing"
                   - label: "ID"
@@ -213,7 +213,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "demos"
                   - label: "ID"
@@ -310,7 +310,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "hero"
                   - label: "ID"
@@ -333,7 +333,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "about"
                   - label: "ID"
@@ -360,7 +360,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "services"
                   - label: "ID"
@@ -384,7 +384,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "contact"
                   - label: "ID"
@@ -505,7 +505,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "hero"
                   - label: "ID"
@@ -528,7 +528,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "about"
                   - label: "ID"
@@ -555,7 +555,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "services"
                   - label: "ID"
@@ -609,7 +609,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "contact"
                   - label: "ID"
@@ -730,7 +730,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "hero"
                   - label: "ID"
@@ -753,7 +753,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "about"
                   - label: "ID"
@@ -780,7 +780,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "services"
                   - label: "ID"
@@ -804,7 +804,7 @@ collections:
                 widget: "object"
                 fields:
                   - label: "Tipo"
-                    name: "tipo"
+                    name: "type"
                     widget: "hidden"
                     default: "contact"
                   - label: "ID"
