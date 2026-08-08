@@ -28,7 +28,7 @@ permalink: indexden.html
     </header>
 
     {% for seccion in secciones %}
-    {% if seccion.tipo == "hero" %}
+    {% if seccion.type == "hero" %}
     <section class="hero" id="{{ seccion.id }}">
         <h1>{{ seccion.titulo }}</h1>
         <p>{{ seccion.subtitulo }}</p>
@@ -36,7 +36,7 @@ permalink: indexden.html
     </section>
     {% endif %}
 
-    {% if seccion.tipo == "about" %}
+    {% if seccion.type == "about" %}
     <section class="about" id="{{ seccion.id }}">
         <div class="about-img">
             <img src="{{ seccion.imagen }}" alt="{{ seccion.imagen_alt }}">
@@ -50,7 +50,7 @@ permalink: indexden.html
     </section>
     {% endif %}
 
-    {% if seccion.tipo == "services" %}
+    {% if seccion.type == "services" %}
     <section class="services" id="{{ seccion.id }}">
         <h2>{{ seccion.titulo }}</h2>
         <div class="services-grid">
@@ -64,7 +64,7 @@ permalink: indexden.html
     </section>
     {% endif %}
 
-    {% if seccion.tipo == "contact" %}
+    {% if seccion.type == "contact" %}
     <section class="contact" id="{{ seccion.id }}">
         <h2>{{ seccion.titulo }}</h2>
         <p class="contact-subtitle">{{ seccion.subtitulo }}</p>
@@ -94,7 +94,7 @@ permalink: indexden.html
     </section>
     {% endif %}
 
-    {% if seccion.tipo == "location" %}
+    {% if seccion.type == "location" %}
     <section class="location" id="{{ seccion.id }}">
         <h2>{{ seccion.titulo }}</h2>
         <p class="location-subtitle">{{ seccion.subtitulo }}</p>
