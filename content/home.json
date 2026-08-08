@@ -1,4 +1,222 @@
 {
-  "titulo": "Hola, esta web es editable",
-  "descripcion": "eaaa Este texto viene desde un archivo JSON pruebaaaaaaaaaaaaaaaaaaaaaaa.\nahre loco"
+  "meta": {
+    "titulo": "PATAGONIA CODEX | Diseño de Páginas Web Profesionales",
+    "descripcion": "Diseño de páginas web profesionales para empresas, comercios y emprendedores. Sitios modernos, optimizados para Google, con dominio propio, SSL y soporte personalizado.",
+    "canonical": "https://patagoniacodex.com.ar/",
+    "robots": "index, follow",
+    "favicon": "/assets/images/favicon.png",
+    "og_title": "Patagonia Codex | Diseño de Páginas Web Profesionales",
+    "og_description": "Diseño de páginas web profesionales con dominio propio, SEO, SSL y mantenimiento.",
+    "og_image": "https://patagoniacodex.com.ar/og-image.jpg",
+    "og_url": "https://patagoniacodex.com.ar/",
+    "og_locale": "es_AR",
+    "theme_color": "#111111",
+    "twitter_title": "Patagonia Codex",
+    "twitter_description": "Diseño Web Profesional",
+    "twitter_image": "https://patagoniacodex.com.ar/og-image.jpg"
+  },
+  "header": {
+    "logo_texto": "PATAGONIA",
+    "logo_subtexto": "</ CODEX />",
+    "logo_url": "https://patagoniacodex.com.ar",
+    "navegacion": [
+      {
+        "texto": "Inicio",
+        "url": "#inicio"
+      },
+      {
+        "texto": "Info",
+        "url": "#sobre-mi"
+      },
+      {
+        "texto": "Servicios",
+        "url": "#servicios"
+      },
+      {
+        "texto": "Contacto",
+        "url": "#contacto"
+      },
+      {
+        "texto": "Precios",
+        "url": "#precios"
+      },
+      {
+        "texto": "Demos",
+        "url": "#demos"
+      }
+    ]
+  },
+  "secciones": [
+    {
+      "tipo": "hero",
+      "id": "inicio",
+      "titulo": "Tu negocio merece una presencia digital profesional",
+      "subtitulo": "Creamos sitios web profesionales para aumentar la visibilidad de tu negocio, generar confianza y ayudarte a conseguir más clientes.",
+      "boton_texto": "Potenciá tu proyecto",
+      "boton_url": "#contacto",
+      "fondo": "/assets/images/fondo.jpg"
+    },
+    {
+      "tipo": "about",
+      "id": "sobre-mi",
+      "titulo": "Qué ofrecemos",
+      "texto": "✔️ Tu propio dominio registrado a tu nombre.<br>✔️ Un sitio web profesional que fortalezca tu marca.<br>✔️ Una presencia digital que genere confianza.<br>✔️ Un diseño moderno y personalizado.<br>✔️ Un sitio optimizado para destacar en buscadores.<br>✔️ Una herramienta disponible las 24 horas para potenciales clientes.",
+      "imagen": "/assets/images/foto.jpg",
+      "imagen_alt": "Diseño Web para Profesionales Patagonia Codex"
+    },
+    {
+      "tipo": "services",
+      "id": "servicios",
+      "titulo": "Servicios",
+      "tarjetas": [
+        {
+          "titulo": "🌐 Diseño Moderno",
+          "descripcion": "Sitios personalizados diseñados para mejorar su presencia digital, transmitir confianza y generar nuevos clientes."
+        },
+        {
+          "titulo": "✅ Dominio propio",
+          "descripcion": "Registrado a tu nombre para que siempre seas el propietario de tu sitio en Internet."
+        },
+        {
+          "titulo": "🔍 Optimización SEO",
+          "descripcion": "Configuramos tu sitio para mejorar su visibilidad en buscadores."
+        },
+        {
+          "titulo": "💬 WhatsApp",
+          "descripcion": "Integración para que tus clientes puedan contactarte con un solo clic."
+        }
+      ]
+    },
+    {
+      "tipo": "contact",
+      "id": "contacto",
+      "titulo": "Contactanos",
+      "subtitulo": "Selecciona el medio de tu preferencia:",
+      "tarjetas": [
+        {
+          "tipo": "whatsapp",
+          "titulo": "WhatsApp",
+          "descripcion": "Mensaje Directo e Inmediato",
+          "url": "https://wa.me/5492996100676?text=Hola!"
+        },
+        {
+          "tipo": "instagram",
+          "titulo": "Instagram",
+          "descripcion": "@ixi.real",
+          "url": "https://www.instagram.com/ixi.real/"
+        },
+        {
+          "tipo": "email",
+          "titulo": "Correo Electrónico",
+          "descripcion": "ixi@patagoniacodex.com",
+          "url": "mailto:ixi@patagoniacodex.com"
+        }
+      ]
+    },
+    {
+      "tipo": "pricing",
+      "id": "precios",
+      "titulo": "Precios",
+      "subtitulo": "Todo lo que necesitás para tener una presencia profesional en Internet, en un solo servicio.",
+      "tarjetas": [
+        {
+          "imagen": "/assets/images/fondo.jpg",
+          "imagen_alt": "Página web informativa de contacto",
+          "titulo": "Página Web Informativa de Contacto",
+          "precio": "$130.000",
+          "moneda": "ARS",
+          "periodo": "Primer año completo. Luego $40.000 ARS / año",
+          "metodo_pago": "Transferencia bancaria",
+          "incluye": "Incluye diseño, dominio, hosting y mantenimiento. Sin costos ocultos.",
+          "boton_url": "https://wa.me/5492996100676?text=Hola!",
+          "terminos": [
+            "✔️ Dominio oficial (.com.ar) registrado a tu nombre.",
+            "✔️ Diseño moderno, profesional y  personalizado.",
+            "✔️ Monitoreamos y mantenemos tu sitio por un año.",
+            "✔️ Optimización avanzada para buscadores con IA.",
+            "✔️ Te ayudamos a gestionar la renovación de tu dominio.",
+            "✔️ Soporte por WhatsApp.",
+            "✔️ Certificado SSL de alta seguridad.",
+            "✔️ Hosting administrado en Cloudflare.",
+            "✔️ Se incluyen modificaciones menores sin cargo durante el primer mes."
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "demos",
+      "id": "demos",
+      "titulo": "DEMOS",
+      "subtitulo": "Explora ejemplos de sitios web que podemos crear para tu negocio.",
+      "tarjetas": [
+        {
+          "imagen": "/assets/images/fondodent.jpg",
+          "imagen_alt": "Página web para consultorio odontológico",
+          "titulo": "🩺Salud",
+          "descripcion": "Página Web para servicios de salud.",
+          "url": "./indexden.html"
+        },
+        {
+          "imagen": "/assets/images/fondoabo.jpg",
+          "imagen_alt": "Diseño web para estudio jurídico",
+          "titulo": "⚖️Estudio Jurídico",
+          "descripcion": "Página Web para Abogados.",
+          "url": "./indexabo.html"
+        },
+        {
+          "imagen": "/assets/images/fondocab.jpg",
+          "imagen_alt": "Página web para alquiler turístico",
+          "titulo": "🛖Alquiler Turístico",
+          "descripcion": "Página Web para alquileres turísticos.",
+          "url": "./indexcab.html"
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "logo_texto": "PATAGONIA",
+    "logo_subtexto": "</ CODEX />",
+    "logo_url": "https://patagoniacodex.com.ar",
+    "descripcion": "Transformamos ideas en experiencias digitales modernas, diseñando sitios web que impulsan el crecimiento de tu negocio.",
+    "navegacion": [
+      {
+        "texto": "Inicio",
+        "url": "#inicio"
+      },
+      {
+        "texto": "Nosotros",
+        "url": "#sobre-mi"
+      },
+      {
+        "texto": "Servicios",
+        "url": "#servicios"
+      },
+      {
+        "texto": "Contacto",
+        "url": "#contacto"
+      },
+      {
+        "texto": "Precios",
+        "url": "#precios"
+      },
+      {
+        "texto": "Demos",
+        "url": "#demos"
+      }
+    ],
+    "contacto": {
+      "email": "ixi@patagoniacodex.com",
+      "email_url": "mailto:ixi@patagoniacodex.com",
+      "atencion": "Atención online",
+      "whatsapp_texto": "WhatsApp",
+      "whatsapp_url": "https://wa.me/5492996100676?text=Hola!",
+      "telefono": "+54 9 2996 100676",
+      "telefono_url": "https://wa.me/5492996100676?text=Hola!"
+    },
+    "qr_imagen": "/assets/images/qr.jpg",
+    "qr_alt": "QR Patagonia Codex",
+    "qr_texto": "Abrí el sitio en tu celular",
+    "copyright": "&copy; 2026 PATAGONIA CODEX. Todos los derechos reservados.",
+    "whatsapp_float_url": "https://wa.me/5492996100676?text=Hola!"
+  }
 }

@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "titulo": "Estudio Jurídico - Excelencia y Profesionalismo",
+    "robots": "noindex, follow",
+    "favicon": "/assets/images/faviconabo.png",
+    "fondo": "/assets/images/fondoabo.jpg"
+  },
+  "header": {
+    "logo": "Estudio Jurídico & Asociados",
+    "navegacion": [
+      {
+        "texto": "Inicio",
+        "url": "#inicio"
+      },
+      {
+        "texto": "Información",
+        "url": "#sobre-mi"
+      },
+      {
+        "texto": "Áreas",
+        "url": "#servicios"
+      },
+      {
+        "texto": "Contacto",
+        "url": "#contacto"
+      },
+      {
+        "texto": "Ubicación",
+        "url": "#ubicacion"
+      }
+    ]
+  },
+  "secciones": [
+    {
+      "tipo": "hero",
+      "id": "inicio",
+      "estilo": "margin-top: -75px",
+      "titulo": "Soluciones Legales de Confianza",
+      "subtitulo": "Defensa corporativa y civil con el prestigio, la reserva y la dedicación personalizada que sus intereses demandan.",
+      "boton_texto": "Agendar Consulta",
+      "boton_url": "#contacto"
+    },
+    {
+      "tipo": "about",
+      "id": "sobre-mi",
+      "titulo": "Sobre el Profesional",
+      "texto": [
+        "Con más de 15 años de trayectoria en el litigio complejo y el asesoramiento empresarial, nuestro estudio ofrece un enfoque analítico y riguroso para la resolución de conflictos legales.",
+        "Nos comprometemos a brindar un servicio basado en la transparencia absoluta, la estrategia preventiva y una representación firme ante los tribunales, cuidando siempre los intereses de nuestros clientes."
+      ],
+      "imagen": "/assets/images/fotoabo.jpg",
+      "imagen_alt": "Fotografía Profesional"
+    },
+    {
+      "tipo": "services",
+      "id": "servicios",
+      "titulo": "Áreas de Especialización",
+      "tarjetas": [
+        {
+          "titulo": "⚖️Derecho Civil",
+          "descripcion": "Asesoramiento integral en contratos, reclamos y defensas de derechos."
+        },
+        {
+          "titulo": "⚖️Derecho Laboral",
+          "descripcion": "Defensa especializada tanto para trabajadores como para empresas."
+        },
+        {
+          "titulo": "⚖️Derecho de Familia",
+          "descripcion": "Soluciones legales en divorcios, sucesiones y regímenes de alimentos."
+        }
+      ]
+    },
+    {
+      "tipo": "contact",
+      "id": "contacto",
+      "titulo": "Canales de Atención Directa",
+      "subtitulo": "Seleccione el medio de su preferencia para iniciar su consulta legal:",
+      "tarjetas": [
+        {
+          "tipo": "whatsapp",
+          "titulo": "WhatsApp",
+          "descripcion": "Mensaje Directo e Inmediato",
+          "url": "https://wa.me"
+        },
+        {
+          "tipo": "instagram",
+          "titulo": "Instagram",
+          "descripcion": "@tu_usuario_de_abogado",
+          "url": "https://instagram.com"
+        },
+        {
+          "tipo": "email",
+          "titulo": "Correo Electrónico",
+          "descripcion": "contacto@estudiojuridico.com",
+          "url": "mailto:contacto@estudiojuridico.com"
+        }
+      ]
+    },
+    {
+      "tipo": "location",
+      "id": "ubicacion",
+      "titulo": "Nuestra Ubicación",
+      "subtitulo": "Visítenos en nuestra oficina central para una atención personalizada",
+      "titulo_info": "Oficina Central",
+      "direccion": "Av. Argentina 1200, Piso 4<br>Neuquén Capital, Argentina",
+      "horario": "Lun a Vie - 9:00 a 18:00 hs",
+      "telefono": "+54 299 123-4567",
+      "mapa_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.123456789!2d-68.054321!3d-38.956789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDU3JzI0LjQiUyA2OMKwMDMnMTUuNiJX!5e0!3m2!1ses!2sar!4v1234567890",
+      "mapa_titulo": "Ubicación del Estudio Jurídico"
+    }
+  ],
+  "footer": {
+    "columna1_titulo": "El Estudio",
+    "columna1_texto": "Compromiso inquebrantable con la justicia, ofreciendo soluciones de primer nivel a particulares y firmas comerciales corporativas.",
+    "columna2_titulo": "Navegación",
+    "navegacion": [
+      {
+        "texto": "Inicio",
+        "url": "#inicio"
+      },
+      {
+        "texto": "El Abogado",
+        "url": "#sobre-mi"
+      },
+      {
+        "texto": "Especialidades",
+        "url": "#servicios"
+      },
+      {
+        "texto": "Contacto Directo",
+        "url": "#contacto"
+      },
+      {
+        "texto": "Ubicación",
+        "url": "#ubicacion"
+      }
+    ],
+    "columna3_titulo": "Oficina Central",
+    "email": "contacto@estudiojuridico.com",
+    "email_url": "mailto:hcontacto@estudiojuridico.com",
+    "horario": "Horario: Lun a Vie - 9:00 a 18:00 hs",
+    "direccion": "Av. Argentina 1200, Piso 4<br>Neuquén Capital, Argentina",
+    "whatsapp_texto": "Contactanos por WhatsApp",
+    "whatsapp_url": "https://wa.me",
+    "columna4_titulo": "QR",
+    "qr_imagen": "/assets/images/qr.jpg",
+    "qr_alt": "QR",
+    "qr_texto": "Accede desde<br> el celular",
+    "copyright": "&copy; 2026 Estudio Jurídico & Asociados. Todos los derechos reservados.",
+    "patagonia_link": "./index.html",
+    "whatsapp_float_url": "https://wa.me"
+  }
+}
